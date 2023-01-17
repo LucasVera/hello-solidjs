@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  border: 1px solid #aaa;
+  width: 20%;
+  padding: 20px;
+  margin: 10px;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.actionsContainer {
+  align-self: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 30%;
+}
+
+.removeTodoButton {
+  font-size: 36px;
+  padding: 0 8px;
+  background-color: darkred;
+}
+.removeTodoButton:hover {
+  background-color: red;
+}
+
+.gotoDetailButton {
+  font-size: 24px;
+  padding: 8px 2px;
+  margin: 0;
+}
